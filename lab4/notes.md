@@ -40,9 +40,9 @@ Ans. They are called the short commit hash (or short SHA-1). They serve as a uni
 
 9.  You now have two commits. Without looking it up: what are the four steps of the loop you just did twice?
 Ans. 1. Edit – Make changes or create new files in your working directory.
-2. Stage – Use `git add` to select and track those changes in the staging area.
-3. Commit – Run `git commit` to save a permanent snapshot to your local history.
-4. Verify – Check `git status` or `git log` to confirm your changes were saved.
+    2. Stage – Use `git add` to select and track those changes in the staging area.
+    3. Commit – Run `git commit` to save a permanent snapshot to your local history.
+    4. Verify – Check `git status` or `git log` to confirm your changes were saved.
 
 10. Why does this file get a special name and a special place, rather than being called notes.md like everything else?
 Ans. `README.md` is the standard "front door" of any software repository. When anyone opens your project on GitHub, the site automatically renders this file directly on the main page as the project's documentation. While `notes.md` is just for internal lab answers, `README.md` lives at the root so both visitors and developer tools instantly know what the project does and how it's organized.
